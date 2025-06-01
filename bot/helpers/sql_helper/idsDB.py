@@ -12,7 +12,7 @@ class ParentID(BASE):
         self.chat_id = chat_id
         self.parent_id = parent_id
 
-ParentID.__table__.create(checkfirst=True)
+ParentID.__table__.create(bind=engine, checkfirst=True)
 
 
 def search_parent(chat_id):
