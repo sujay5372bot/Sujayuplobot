@@ -1,7 +1,7 @@
-from sqlalchemy import Column, String, Numeric
+from sqlalchemy import Column, String, Numeric, create_engine
 from bot.helpers.sql_helper import SESSION, BASE
 
-
+engine = create_engine("postgresql://neondb_owner:npg_8w2EuyZpJWSK@ep-odd-wave-a8rqj0vz-pooler.eastus2.azure.neon.tech/neondb?sslmode=require") #Example sqlite//yourdb.db
 class ParentID(BASE):
     __tablename__ = "ParentID"
     chat_id = Column(Numeric, primary_key=True)
