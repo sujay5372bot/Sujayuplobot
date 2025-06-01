@@ -14,7 +14,7 @@ class gDriveCreds(BASE):
         self.chat_id = chat_id
 
 
-gDriveCreds.__table__.create(checkfirst=True)
+gDriveCreds.__table__.create(bind=SESSION.bind, checkfirst=True)
 
 INSERTION_LOCK = threading.RLock()
 
