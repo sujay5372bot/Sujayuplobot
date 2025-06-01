@@ -2,9 +2,9 @@ class config:
     BOT_TOKEN = "7815547857:AAHXdWrpJzHNQhw-el4uh6ubHhwAWZe4FUo"
     APP_ID = "24935727"
     API_HASH = "3fd33336629324ecd664e9b6894f0909"
-    DATABASE_URL = ""
+    DATABASE_URL = "mongodb+srv://Sujayuplobot:Sujayuplobot@cluster03984765.utyucr1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster03984765"
     SUDO_USERS = "6942557751 7348205141" # Sepearted by space.
-    SUPPORT_CHAT_LINK = "https://t.me/onefighterarmy"
+    SUPPORT_CHAT_LINK = "https://t.me/sujay8372"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
 
